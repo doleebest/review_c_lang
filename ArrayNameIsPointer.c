@@ -10,5 +10,4 @@ int main(void)
 	printf("%d %d \n", ptr[2], arr[2]);
 	printf("%d %d \n", *ptr, *arr);
 	return 0;
-
 }
