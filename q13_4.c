@@ -7,10 +7,10 @@ int main(void) {
 	int temp; 
 
 	for (int i = 0; i <3; i++) {
-		temp = *ptr1;
+		temp = *ptr1; // 값을 바꿔야 하므로 * 표시를 붙임
 		*ptr1 = *ptr2;
 		*ptr2 = temp;
-		ptr2++;
+		ptr2++;      // 주소값을 바꾸므로 * 없음
 		ptr1--;
 	}
 

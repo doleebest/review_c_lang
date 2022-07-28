@@ -6,5 +6,4 @@ int main(void) {
 	printf("%s \n", strArr[1]);
 	printf("%s \n", strArr[2]);
 	return 0;
-
 }
