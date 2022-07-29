@@ -13,6 +13,6 @@ int main(void) {
 	printf("num1 num2 : %d %d \n", num1, num2);
 
 	Swap(num1, num2); // num1과 num2에 저장된 값이 서로 바뀌길 기대!
-	printf("num1 num2 : %d %d \n", num1, num2);
+	printf("num1 num2 : %d %d \n", num1, num2); // 매개변수 num1, num2는 바뀜
 	return 0;
 }
